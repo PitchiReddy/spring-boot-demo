@@ -13,7 +13,7 @@ public class SpringBootDemoGitApplication {
 		SpringApplication.run(SpringBootDemoGitApplication.class, args);
 	}
 	
-	@GetMapping //Added dev2 changes
+	@GetMapping //Modify dev2 changes
 	String getMessage() {
 		return "Hello World";
 	}
